@@ -2092,7 +2092,12 @@ input[type=number]::-webkit-outer-spin-button
   justify-content: center;
   background-position: right center;
 }
-
+.secdumycol.book-appointment-banner{
+  background-image: url(../images/ourproductsss.jpg);
+}
+.secdumycol.book-appointment-banner h2{
+  color: #212529;
+}
 .secinerpageproduct.ourproducts{
   background-image: url(../images/ourproducts.jpg);
 }
