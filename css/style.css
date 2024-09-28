@@ -5,7 +5,10 @@ body {
 img.img-fluid.sec-logo-img , .footer-logoimg{
   width: 80% !important;
 }
-
+.get-our-best p{
+  font-size: 16px;
+  color: #727272;
+}
 .Allsecpadding {
   padding-left: 55px;
   padding-right: 55px;
@@ -80,7 +83,7 @@ img.img-fluid.sec-logo-img , .footer-logoimg{
   background-size: cover;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-radius: 40px !important;
+  border-radius: 0px !important;
 
 }
 .secbgslider2 {
@@ -221,6 +224,10 @@ img.img-fluid.sec-logo-img , .footer-logoimg{
   border-radius: 50px;
   color: #fff;
   text-decoration: none;
+}
+
+.allbtn a i{
+  margin-left: 5px;
 }
 
 .allbtn a:hover {
@@ -488,7 +495,7 @@ a {
 .secseebg {
   border: 1px solid #e3dbd8;
   border-radius: 20px;
-  padding: 20px;
+  padding: 15px 5px;
   margin: 20px;
 }
 
@@ -511,6 +518,7 @@ a {
   border: 1px solid #0065C2 !important;
   padding: 10px 12px;
   border-radius: 12px;
+  display: inline-block;
 }
 
 .secclink a:hover {
@@ -536,7 +544,7 @@ a {
 
 .secgetbg {
   background-color: #fff;
-  padding: 20px;
+  padding: 55px 45px;
   border-radius: 15px;
 }
 
@@ -552,19 +560,22 @@ a {
   font-size: 14px;
   font-weight: 600;
   text-transform: capitalize;
-  padding: 12px 25px;
+  padding: 15px 25px;
   text-decoration: none;
 }
-
+.sliderbtn3 a i{
+  margin-left: 10px;
+}
 .secgetbg2 {
   background-color: #0172DB;
-  padding: 20px;
+  padding: 35px 20px;
   border-radius: 15px;
   margin-top: 20px;
 }
 
 .count {
   font-size: 40px;
+  line-height: 40px;
   font-weight: 700;
 }
 
@@ -585,6 +596,8 @@ a {
 .secgettitt {
   font-weight: 700;
   color: #0055A4;
+  font-size: 22px;
+  line-height: 30px;
 }
 
 .blogtext {
@@ -709,7 +722,8 @@ a {
 .testtittle p {
   font-size: 20px;
   color: #fff;
-  margin-top: -90px;
+  line-height: 40px;
+  margin-bottom: 40px;
 }
 
 .testtittle h6 {
@@ -730,8 +744,19 @@ a {
 .testmonialsslider .owl-nav {
   text-align: end;
   font-size: 40px;
+  position: relative;
 }
-
+.testmonialsslider .owl-nav:before{
+  content: "";
+  position: absolute;
+  width: 68%;
+  height: 1px;
+  background-color: #fff;
+  bottom: 0px;
+  left: 0px;
+  top: 0;
+  margin: auto;
+}
 .testmonialsslider button.owl-prev span {
   background-color: #fff !important;
   padding: 0px 24px 9px 24px;
@@ -755,14 +780,15 @@ a {
   font-size: 40px !important;
   margin-right: 10px;
 }
-
+/*
 .bggte::after {
   content: "";
   position: absolute;
   width: 390px;
   height: 1px;
   background-color: #fff;
-}
+  bottom: 85px;
+}*/
 
 .newstext {
   border: 1px solid #E3DBD8;
@@ -837,11 +863,18 @@ a {
   background-image: url(../images/forbgg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px 150px;
+  padding: 60px 150px;
   margin-bottom: 60px;
   border-radius: 15px;
 }
-
+.formsmsbgg .form-control{
+  height: 62px;
+  padding: 0px 25px;
+  border: 0px;
+}
+.formsmsbgg .col-12.col-lg-6{
+  padding: 0px 5px;
+}
 .secforntitt {
   text-align: center;
   color: #ffff;
@@ -861,7 +894,7 @@ input {
 .secformbtn {
   font-size: 15px;
   font-weight: 600;
-  padding: 15px 30px;
+  padding: 20px 30px;
   border: 1px solid #0172DB;
   border-radius: 50px;
   background-color: #0172DB;
@@ -869,8 +902,9 @@ input {
 }
 
 .secformbtn:hover {
-  border: 1px solid #0172DB;
+  border: 1px solid #0a61b3;
   color: #fff;
+  background-color: #0a61b3;
 }
 
 .secfootrbg {
@@ -940,7 +974,43 @@ input {
 .subscribe ::placeholder {
   color: #fff !important;
 }
+.quote-icon{
+  width: 63px;
+  margin-bottom: 30px;
+}
+.btn.secformbtn i{
+  margin-left: 10px;
+}
+.formsmsbgg .btn.secformbtn{
+  margin-top: 30px;
+}
 
+@media only screen and (min-width:1920px){
+
+  .seetextsec p{
+    min-height: 85px;
+  }
+}
+@media only screen and (max-width:1800px){
+  .seetextsec p{
+    min-height: 106px;
+  }
+}
+@media only screen and (max-width:1400px){
+
+  .seetextsec p{
+    min-height: 100px;
+  }
+  .secgetbg{
+    padding: 30px 30px;
+  }
+  .secgetbg2{
+    padding: 20px 20px;
+  }
+  .bggte {
+    padding: 30px;
+  }
+}
 @media only screen and (max-width:768px) {
   .subscribe__input {
     padding: 0 50px 0 20px;
