@@ -214,10 +214,27 @@
   padding: 50px;
 }
 .newsslider .owl-nav {
-  margin-top: -656px;
+  margin-top: -705px;
+}
+.allbtn a {
+  padding: 12px 20px;
+}
+.phoneicon i {
+  padding: 10px;
+}
+.secfoterlefttext{
+  font-size: 25px;
+}
+.are-you-ready {
+  padding-left: 10px;
+}
+.testmonialsslider .owl-nav:before{
+  width: 45%;
+}
+.Allsecpadding.send-message{
+  margin-top: 40px;
 }
 }
-
 
 
 
@@ -344,6 +361,23 @@
   font-size: 18px;
   text-align: center;
 }
+.get-our-best-section .col-lg-5{
+  margin-bottom: 40px;
+}
+.testbgg .col-lg-7.bggte{
+  margin-top: 40px;
+}
+.secpoli {
+  text-align: start;
+}
+.secpoli a{
+  padding-left: 0px;
+  padding-right: 10px;
+}
+.footer-row-bottom{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
 }
 
 
@@ -366,6 +400,17 @@
 
 @media only screen and (max-width:767px) {
 
+  .subscribe__btn{
+    height: 45px;
+    position: absolute;
+    right: 15px !important;
+    top: 6px;
+    width: 45px;
+  }
+  
+  .formsmsbgg .btn.secformbtn {
+    margin-top: 0px;
+  }
   .offcanvas-header {
     background: #000;
   }
@@ -599,7 +644,7 @@
   }
 
   .formsmsbgg {
-    padding: 10px 15px;
+    padding: 10px 15px 40px;
     margin-bottom: 60px;
     border-radius: 15px;
   }
@@ -610,6 +655,7 @@
 
   .secfoterlefttext {
     font-size: 19px;
+    margin: 10px 0px;
   }
 
   .secfootrbg {
@@ -898,4 +944,35 @@ button.accordion-button {
 .newstext {
   height: auto;
 }
+
+.are-you-ready {
+  padding-left: 0px;
+  margin-top: 20px;
+}
+.footer-logoimg {
+  width:auto !important;
+}
+.footer-row-bottom{
+  margin-top:40px;
+  margin-bottom: 40px;
+}
+.seccopy{
+  font-size: 14px;
+}
+.secpoli a{
+  font-size: 14px;
+}
+.footertitt{
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+}
+@media only screen and (max-width:575px) {
+
+  .formsmsbgg .form-control{
+    height: 50px;
+    padding: 0px 20px;
+    border: 0px;
+}
+
 }
