@@ -2071,8 +2071,6 @@ input[type=number]::-webkit-outer-spin-button
   flex-direction: column;
   justify-content: center;
 
-  background-size: auto 100%;
-  background-repeat: no-repeat;
   background-position: left top;
 }
 
