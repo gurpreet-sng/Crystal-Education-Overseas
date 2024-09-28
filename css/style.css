@@ -1173,7 +1173,7 @@ button {
 }
 
 .secinerpagebg {
-  background-image: url(../images/DiscoverCanadabg.png);
+  background-image: url(../images/DiscoverCanadabg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 30px 60px;
@@ -1378,7 +1378,7 @@ button {
   color: #727272;
 }
 .secinerpagebg2 {
-  background-image: url(../images/DiscoverAustraliabgg.png);
+  background-image: url(../images/DiscoverAustraliabgg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 30px 60px;
@@ -1451,7 +1451,7 @@ font-size: 16px;
   color: #000;
 }
 .secinerpagebg3 {
-  background-image: url(../images/DiscoverDubaibgg.png);
+  background-image: url(../images/DiscoverDubaibgg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 30px 60px;
@@ -1487,7 +1487,7 @@ ol li{
 }
 
 .secinerpagebg4 {
-  background-image: url(../images/DiscoverGermanybgg.png);
+  background-image: url(../images/DiscoverGermanybgg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 30px 60px;
@@ -1526,7 +1526,7 @@ tbody, td, tfoot, th, thead, tr {
   font-size: 16px;
 }
 .secinerpagebg5 {
-  background-image: url(../images/DiscoverUSAbgg.png);
+  background-image: url(../images/DiscoverUSAbgg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 30px 60px;
@@ -1536,7 +1536,7 @@ tbody, td, tfoot, th, thead, tr {
   flex-direction: column;
   justify-content: center;
   border-radius: 35px;
-
+  background-position: right center;
 }
 .secinerpagebg5 h2 {
   font-size: 60px;
@@ -1585,7 +1585,7 @@ a{
   text-decoration: underline;
 }
 .secinerpagebg6 {
-  background-image: url(../images/DiscoverUKbg.png);
+  background-image: url(../images/DiscoverUKbg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 30px 60px;
@@ -1608,7 +1608,7 @@ a{
 }
 
 .secinerpagebg7 {
-  background-image: url(../images/DiscoverIrelandbg.png);
+  background-image: url(../images/DiscoverIrelandbg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 30px 60px;
@@ -1746,7 +1746,7 @@ a{
   justify-content: center;
 }
 .Allsecceobg2 {
-  background-image: url(../images/ceobg.png);
+  background-image: url(../images/ceobg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 30px 60px;
@@ -1841,7 +1841,7 @@ font-size: 18px;
   font-size: 18px;
 }
 .Allsecceobg3 {
-  background-image: url(../images/WeCareServicesbg.png);
+  background-image: url(../images/WeCareServicesbg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 30px 60px;
@@ -2061,7 +2061,7 @@ input[type=number]::-webkit-outer-spin-button
 }
 
 .secinerpagebgvisa {
-  background-image: url(../images/visabanner.png);
+  background-image: url(../images/visabanner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 30px 60px;
@@ -2071,6 +2071,9 @@ input[type=number]::-webkit-outer-spin-button
   flex-direction: column;
   justify-content: center;
 
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
 }
 
 .secinerpagebgvisa h2 {
@@ -2080,7 +2083,7 @@ input[type=number]::-webkit-outer-spin-button
 }
 
 .secinerpagebgStudent {
-  background-image: url(../images/student-serves-banner.png);
+  background-image: url(../images/student-serves-banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 30px 60px;
@@ -2089,7 +2092,7 @@ input[type=number]::-webkit-outer-spin-button
   display: flex;
   flex-direction: column;
   justify-content: center;
-
+  background-position: right center;
 }
 
 .secinerpagebgStudent h2 {
@@ -2099,7 +2102,7 @@ input[type=number]::-webkit-outer-spin-button
 }
 
 .secinerpageproduct {
-  background-image: url(../images/student-serves-banner.png);
+  background-image: url(../images/student-serves-banner.jpg);
   background-repeat: no-repeat;
   padding: 30px 60px;
   border-radius: 25px;
@@ -2107,7 +2110,7 @@ input[type=number]::-webkit-outer-spin-button
   display: flex;
   flex-direction: column;
   justify-content: center;
-
+  background-position: right center;
 }
 
 .secinerpageproduct h2 {
